@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="15 38 130 90" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <radialGradient id="cg" cx="35%" cy="30%" r="75%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="60%" stop-color="#f2faff"/>
+      <stop offset="100%" stop-color="#d8eeff"/>
+    </radialGradient>
+    <filter id="cs" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2" result="b"/>
+      <feOffset in="b" dx="0" dy="3" result="ob"/>
+      <feComposite in="SourceGraphic" in2="ob" operator="over"/>
+    </filter>
+  </defs>
+  <!-- cloud body -->
+  <g filter="url(#cs)">
+    <ellipse cx="55" cy="92" rx="34" ry="28" fill="url(#cg)"/>
+    <ellipse cx="105" cy="92" rx="34" ry="28" fill="url(#cg)"/>
+    <ellipse cx="80" cy="72" rx="36" ry="30" fill="url(#cg)"/>
+    <ellipse cx="80" cy="105" rx="50" ry="22" fill="url(#cg)"/>
+  </g>
+  <!-- eyes -->
+  <g fill="#2a4858">
+    <ellipse cx="65" cy="85" rx="4.5" ry="6"/>
+    <ellipse cx="95" cy="85" rx="4.5" ry="6"/>
+    <circle cx="66.5" cy="82.5" r="1.5" fill="#fff"/>
+    <circle cx="96.5" cy="82.5" r="1.5" fill="#fff"/>
+  </g>
+  <!-- blush -->
+  <ellipse cx="58" cy="96" rx="5" ry="3" fill="#ffb0c8" opacity="0.7"/>
+  <ellipse cx="102" cy="96" rx="5" ry="3" fill="#ffb0c8" opacity="0.7"/>
+  <!-- mouth -->
+  <path d="M73 96 Q80 104 87 96" stroke="#2a4858" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+  <!-- little bubbles floating -->
+  <circle cx="135" cy="45" r="7" fill="#fff" opacity="0.85" stroke="#b8e8f5" stroke-width="1.5"/>
+  <circle cx="25" cy="55" r="5" fill="#fff" opacity="0.85" stroke="#ffd8ec" stroke-width="1.5"/>
+  <circle cx="145" cy="80" r="4" fill="#fff" opacity="0.85" stroke="#b8e8f5" stroke-width="1.5"/>
+</svg>
