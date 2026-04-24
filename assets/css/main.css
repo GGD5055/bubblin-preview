@@ -743,6 +743,22 @@ img { max-width: 100%; height: auto; display: block; }
     margin-left: 2px;
 }
 
+.price-rental-only {
+    display: inline-block;
+    background: rgba(59, 184, 224, 0.12);
+    color: var(--color-primary, #3bb8e0);
+    font-size: 0.78rem;
+    font-weight: 800;
+    padding: 4px 12px;
+    border-radius: 999px;
+    margin: 6px 0 10px;
+    letter-spacing: 0.03em;
+}
+.price-card.magic .price-rental-only {
+    background: rgba(200, 120, 255, 0.18);
+    color: var(--color-magic-glow, #e8d8ff);
+}
+
 .price-notes {
     margin-top: 32px;
     background: var(--color-bg-2);
