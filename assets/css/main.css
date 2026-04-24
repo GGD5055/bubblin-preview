@@ -1015,6 +1015,29 @@ img { max-width: 100%; height: auto; display: block; }
 }
 .footer-company a:hover { color: #fff; }
 
+.footer-sns {
+    display: flex;
+    gap: 14px;
+    justify-content: center;
+    margin-top: 14px;
+}
+.footer-sns-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.1);
+    color: #fff;
+    text-decoration: none;
+    transition: background 0.2s, transform 0.2s;
+}
+.footer-sns-link:hover {
+    background: rgba(255,255,255,0.22);
+    transform: translateY(-2px);
+}
+
 /* ════════════════════════════════════
    Wave divider
    ════════════════════════════════════ */
