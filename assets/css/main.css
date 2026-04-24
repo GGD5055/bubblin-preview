@@ -990,6 +990,31 @@ img { max-width: 100%; height: auto; display: block; }
 }
 .footer-link:hover { color: white; }
 
+.footer-company {
+    margin-top: 24px;
+    padding: 20px 16px 4px;
+    border-top: 1px solid rgba(255,255,255,0.12);
+    font-size: 0.85rem;
+    line-height: 1.7;
+    max-width: 760px;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgba(255,255,255,0.72);
+}
+.footer-company-name {
+    font-weight: 800;
+    color: #fff;
+    margin: 0 0 6px;
+    letter-spacing: 0.03em;
+}
+.footer-company-line { margin: 2px 0; }
+.footer-company a {
+    color: rgba(255,255,255,0.92);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+.footer-company a:hover { color: #fff; }
+
 /* ════════════════════════════════════
    Wave divider
    ════════════════════════════════════ */
