@@ -1007,6 +1007,50 @@ img { max-width: 100%; height: auto; display: block; }
     margin: 0 0 6px;
     letter-spacing: 0.03em;
 }
+.footer-operator {
+    display: inline-flex;
+    align-items: center;
+    gap: 14px;
+    margin: 0 0 12px;
+    padding: 8px 16px 8px 8px;
+    background: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.12);
+    border-radius: 999px;
+    text-decoration: none;
+    color: inherit;
+    transition: background 0.2s, transform 0.2s;
+}
+.footer-operator:hover {
+    background: rgba(255,255,255,0.14);
+    transform: translateY(-1px);
+}
+.footer-operator-logo {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    object-fit: cover;
+    background: #0d1e58;
+    flex-shrink: 0;
+}
+.footer-operator-label {
+    display: block;
+    font-size: 0.7rem;
+    letter-spacing: 0.14em;
+    color: rgba(255,255,255,0.6);
+    font-weight: 700;
+}
+.footer-operator-name {
+    display: block;
+    font-weight: 800;
+    color: #fff;
+    letter-spacing: 0.03em;
+}
+.footer-operator-name small {
+    font-size: 0.72rem;
+    font-weight: 600;
+    color: rgba(255,255,255,0.7);
+    margin-left: 4px;
+}
 .footer-company-line { margin: 2px 0; }
 .footer-company a {
     color: rgba(255,255,255,0.92);
