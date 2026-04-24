@@ -685,6 +685,18 @@ img { max-width: 100%; height: auto; display: block; }
     letter-spacing: 0.05em;
     box-shadow: 0 4px 14px rgba(255,107,61,0.28);
 }
+.price-tag.tag-rental {
+    background: rgba(59, 184, 224, 0.14);
+    color: var(--color-primary, #3bb8e0) !important;
+    padding: 5px 14px;
+    border-radius: 999px;
+    display: inline-block;
+    letter-spacing: 0.03em;
+}
+.price-card.magic .price-tag.tag-rental {
+    background: rgba(200, 120, 255, 0.22);
+    color: var(--color-magic-glow, #e8d8ff) !important;
+}
 
 .price-sale {
     display: inline-block;
