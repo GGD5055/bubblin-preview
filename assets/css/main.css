@@ -534,6 +534,15 @@ img { max-width: 100%; height: auto; display: block; }
 .feature-icon {
     font-size: 3rem;
     margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 110px;
+}
+.feature-icon svg {
+    width: 110px;
+    height: 110px;
+    display: block;
 }
 .feature-title {
     font-weight: 900;
