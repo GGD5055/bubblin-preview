@@ -474,7 +474,7 @@
   <div class="section-inner">
     <h2 class="contact-title">お問い合わせ</h2>
     <p class="contact-sub">ご希望日時・会場・ご要望をお聞かせください。<br>通常1営業日以内にご返信いたします。</p>
-    <form class="contact-form" onsubmit="event.preventDefault(); alert('仮版のため送信はまだ動作しません');">
+    <form class="contact-form" action="contact.php" method="post">
       <label>お名前 <input type="text" name="name" required></label>
       <label>メールアドレス <input type="email" name="email" required></label>
       <label>ご希望機種
@@ -489,6 +489,7 @@
       <label>開催日・会場・ご要望
         <textarea name="message" placeholder="例：2026年6月20日 東京都内ホテル 300名規模の披露宴"></textarea>
       </label>
+      <input type="text" name="website" tabindex="-1" autocomplete="off" style="position:absolute; left:-9999px;" aria-hidden="true">
       <button type="submit" class="btn-submit">送信する</button>
     </form>
   </div>
